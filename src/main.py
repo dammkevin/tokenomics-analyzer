@@ -7,8 +7,8 @@ from display import display_results
 def main():
     token_data = get_token_inputs()
     metrics = calculate_metrics(token_data)
-    risk_messages = analyze_risks(metrics)
-    display_results(token_data, metrics, risk_messages)
+    risk_summary = analyze_risks(metrics)
+    display_results(token_data, metrics, risk_summary)
 
 
 if __name__ == "__main__":
