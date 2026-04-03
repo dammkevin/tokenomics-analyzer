@@ -31,7 +31,7 @@ def display_results(token_data, metrics, risk_summary, projections):
         print(f"- {message}")
 
     print()
-    print("Supply Projection")
+    print("Supply Projection (Year 1 includes upcoming unlock)")
     print("-" * 50)
     for projection in projections:
         print(
