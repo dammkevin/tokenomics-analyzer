@@ -1,4 +1,4 @@
-def display_results(token_data, metrics, risk_summary):
+def display_results(token_data, metrics, risk_summary, projections):
     print()
     print("=" * 50)
     print("TOKENOMICS ANALYZER REPORT")
@@ -29,6 +29,16 @@ def display_results(token_data, metrics, risk_summary):
     print("-" * 50)
     for message in risk_summary["risk_messages"]:
         print(f"- {message}")
+
+    print()
+    print("Supply Projection")
+    print("-" * 50)
+    for projection in projections:
+        print(
+            f"Year {projection['year']}: "
+            f"Projected Circulating Supply = {projection['projected_supply']:,.2f} "
+            f"({projection['circulating_percentage']:.2f}% of max supply)"
+        )
 
     print()
     print("=" * 50)
