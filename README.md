@@ -3,6 +3,9 @@ A Python-based tool for analyzing cryptocurrency tokenomics to evaluate dilution
 
 This project simulates how crypto analysts assess token supply dynamics and identify risks that may influence price behavior.
 
+![Tokenomics Analyzer Display](./assets/token-analyzer-display.png)
+![Supply Growth Projection](./assets/supply-projection-image.png)
+
 
 ## Features
 
