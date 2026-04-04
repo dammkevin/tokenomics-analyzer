@@ -3,7 +3,6 @@ A Python-based tool for analyzing cryptocurrency tokenomics to evaluate dilution
 
 This project simulates how crypto analysts assess token supply dynamics and identify risks that may influence price behavior.
 
----
 
 ## Features
 
@@ -32,7 +31,6 @@ This project simulates how crypto analysts assess token supply dynamics and iden
   - Real-time metric updates
   - Supply projection visualization
 
----
 
 ## Why This Project Matters
 
@@ -47,7 +45,6 @@ can create significant downward price pressure over time.
 
 This tool helps identify those risks early by analyzing how supply evolves.
 
----
 
 ## Tech Stack
 
@@ -55,7 +52,6 @@ This tool helps identify those risks early by analyzing how supply evolves.
 - Streamlit  
 - Pandas  
 
----
 
 ## How to Run
 
@@ -67,18 +63,6 @@ pip install -r requirements.txt
 
 python -m streamlit run app.py
 
----
-
-## Project Structure
-
-tokenomics-analyzer/
-│
-├── src/                # Core logic (calculations, risk analysis)
-├── app.py              # Streamlit UI
-├── requirements.txt
-└── README.md
-
----
 
 ## Example Insights
 
@@ -88,6 +72,7 @@ tokenomics-analyzer/
 - High inflation
 - Large unlock events
 - FDV much higher than market cap
+
 Indicates potential dilution and sell pressure.
 
 ### Low Risk Token
@@ -96,6 +81,5 @@ Indicates potential dilution and sell pressure.
 - Low inflation
 - Small unlocks
 - FDV close to market cap
-Indicates more stable supply dynamics.
 
----
+Indicates more stable supply dynamics.
