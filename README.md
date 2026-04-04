@@ -57,11 +57,15 @@ This tool helps identify those risks early by analyzing how supply evolves.
 
 ### 1. Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ### 2. Run the app
 
+```bash
 python -m streamlit run app.py
+```
 
 
 ## Example Insights
