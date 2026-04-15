@@ -1,4 +1,4 @@
-# tokenomics-analyzer
+# Tokenomics Analyzer
 A Python-based tool for analyzing cryptocurrency tokenomics to evaluate dilution risk, inflation pressure, and token unlock impact.
 
 This project simulates how crypto analysts assess token supply dynamics and identify risks that may influence price behavior.
@@ -68,6 +68,30 @@ pip install -r requirements.txt
 
 ```bash
 python -m streamlit run app.py
+```
+
+
+## Project Structure
+
+```text
+tokenomics-analyzer/
+│
+├── src/
+│   ├── main.py            # CLI entry point
+│   ├── input_handler.py   # Handles user input and validation
+│   ├── calculations.py    # Tokenomics calculations (MC, FDV, inflation, etc.)
+│   ├── risk_analysis.py   # Risk scoring and executive summary logic
+│   └── display.py         # CLI output formatting
+│
+├── app.py                 # Streamlit dashboard (UI layer)
+│
+├── data/                  # Sample data files (e.g., CSV inputs)
+│
+├── tests/
+│   └── test_calculations.py  # Basic unit tests for metric validation
+│
+├── requirements.txt       # Project dependencies
+└── README.md              
 ```
 
 
